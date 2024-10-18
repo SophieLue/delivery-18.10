@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Mulish:ital,wght@1,200..1000&display=swap');
+
+*{box-sizing: border-box; margin: 0%;}
+
+body {background-color: #f8dcbd;font-family: "Mulish", sans-serif;
+    color: #293c67;}
+
+ main {padding: 10px; box-sizing: border-box}
+main,header,footer {width:83.33%; margin: 0 auto;}
+
+h1 {font-weight: 800;font-family: "Alfa Slab One", serif;color: #52739f; text-transform: uppercase}
+  
+h2{font-weight: 700;color: #293c67; text-transform: uppercase;margin-bottom: 1%;font-size: 1.2em;} 
+
+h3{display: block; margin: 3% auto;font: weight 600px; font-size: 1.4em;color: #3c3c3c;}
+
+
+p{font-size: 20px;line-height: 40px;text-align: justify; font-weight: 500px; margin-bottom: 5%; color: #293c67;}
+
+[src= "images/image principal.jpg"] {width: 50%;display: block;border: 2px solid #3c3c3c; margin: 3% auto}
+
+[src= "images/image principal.jpg"]:hover {border-radius: 500px; width:75%;} 
+   
+div {width: 70%; margin: 3% auto;justify-content: space-between;}
+
+div img:hover {border-radius: 1000px}
+
+div img{width:20%; border: 3px solid #3c3c3c;}
+
+footer{width: 90%; height: 50px; background-color:#293c67; color: #bdbdbc; text-transform: uppercase; font-size: 1.6em; text-align: justify;text-align: center;font-weight: 700; border-radius: 30px;}
+
+a{ text-decoration: none;
+background-color: #bdbdbc;
+width: 150px;
+height: 40px;
+display: block;
+text-align: center;
+border-radius: 20px;
+font-size: 1.1em;
+color: #3c3c3c;
+transition-property: background-color, width;
+transition-duration: 4s,9s;
+transition: all 4s 1s linear;display: flex;justify-content: center;
+}
+
+
+a:hover{
+color: #ec703b;
+background-color: #52739f;
+text-decoration: underline;
+width: 500px;
+border-radius: 20px;}
+
+@media (max-width: 768px ) {div {width: 30%;}}
